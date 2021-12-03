@@ -1,0 +1,13 @@
+
+ALL code is present in 180101094_lex.l file 
+
+Step 1 : TO generate 180101094.yy.cc do :
+
+flex -o 180101094.yy.cc 180101094_lex.l
+
+Step 2 : TO compile program please use G++ and not GCC : 
+
+g++ 180101094.yy.cc
+
+Step 3 : TO run program  execute ./a.out and give file input using <
+./a.out < input.p
